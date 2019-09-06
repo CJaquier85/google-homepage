@@ -14,56 +14,56 @@
 </head>
 <body>
     <!-- Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#">Store</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav my-lg-0">
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#">Gmail</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#">Images</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#"><i class="fas fa-th"></i></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link navbar-links navbar-overwrite" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-links navbar-overwrite" href="#">Store</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link navbar-links navbar-overwrite" href="#">Gmail</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-links navbar-overwrite" href="#">Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-links navbar-overwrite" href="#"><i class="fas fa-th"></i></a>
+      </li>
+      <form class="form-inline my-2 my-lg-o">
+        <button class="btn btn-primary btn-sm my-2 my-sm-0" type="button">Sign In</button>
+      </form>
+    </ul>
+  </div>
+</nav>
 
     <!-- Google Image -->
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4">
-            <
-            <img class="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-            <form>
-                <input type="search" placeholder="Search" aria-label="Search">
-            </form>
-            <form>
-              <button class="btn btn-light" type="submit">Google Search</button>
-              <button class="btn btn-outline-success" type="submit">I'm Feeling Lucky</button>
-            </form>
-        </div>
-        <div class="col-lg-4"></div>
-      </div>
-    </section>
-    
-
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4">
+      <img class="google-image mx-auto d-block mb-4" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
     <!-- Search Bar -->
-
+      <form>
+        <input id="search-rounded" class="form-control form-control-lg mb-4 search-box" type="search" aria-label="Search">
+      </form>
 
     <!-- Two Buttons -->
-
+        <section>
+          <form class="text-center">
+            <button class="btn btn-light btn-overwrite mx-2" type="submit">Google Search</button>
+            <button class="btn btn-light btn-overwrite mx-2" type="submit">I'm Feeling Lucky</button>
+          </form>
+        </section>
+      </div>
+    <div class="col-lg-4"></div>
+  </div>
+</div>
 
     <!-- Footer -->
 
