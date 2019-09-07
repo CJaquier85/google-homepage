@@ -24,11 +24,6 @@ li a.navbar-overwrite:hover {
     box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.16);
 }
 
-.search-container {
-    padding-left: 2.375rem;
-}
-
-
 .search-icon {
     padding: 1rem;
     z-index: 2;
