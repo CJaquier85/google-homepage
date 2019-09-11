@@ -18,6 +18,7 @@ li a.navbar-overwrite:hover {
 
 #search-rounded {
     border-radius: 1.5rem;
+    padding-left: 2.375rem;
 }
 
 #search-rounded:hover {
